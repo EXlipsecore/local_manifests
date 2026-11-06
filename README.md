@@ -18,7 +18,7 @@ repo sync -c --force-sync --no-clone-bundle --no-tags -j16
 | device/oneplus/sm8550-common | EXlipsecore/android_device_oneplus_sm8550-common | `17` |
 | kernel/oneplus/sm8550 | EXlipsecore/android_kernel_oneplus_sm8550 | `17` |
 | kernel/oneplus/sm8550-modules | EXlipsecore/android_kernel_oneplus_sm8550-modules | `17` |
-| kernel/oneplus/sm8550-devicetrees | LineageOS/android_kernel_oneplus_sm8550-devicetrees | `lineage-24.0` |
+| kernel/oneplus/sm8550-devicetrees | EXlipsecore/android_kernel_oneplus_sm8550-devicetrees | `17` |
 | hardware/oplus | EXlipsecore/android_hardware_oplus | `17` |
 | hardware/pixelworks/interfaces | LineageOS/android_hardware_pixelworks_interfaces | `lineage-24.0` |
 | device/qcom/sepolicy_vndr/sm8550 | EXlipsecore/android_device_qcom_sepolicy_vndr | `17` |
