@@ -4,6 +4,7 @@
   <remote name="ex-gh"   fetch="https://github.com/EXlipsecore"   revision="17" />
   <remote name="ex-gl"   fetch="https://gitlab.com/EXlipsecore"  revision="17" />
   <remote name="lineage" fetch="https://github.com/LineageOS"    revision="lineage-24.0" />
+  <!-- lineage remote only for repos not forked by EXlipsecore (pixelworks) -->
   <remote name="alpha"   fetch="https://gitlab.com/alphadroid-project" revision="alpha-16.2" />
   <remote name="crdroid" fetch="https://github.com/crDroidAndroid"     revision="17.0" />
 
@@ -14,7 +15,7 @@
   <!-- kernel -->
   <project path="kernel/oneplus/sm8550"            name="android_kernel_oneplus_sm8550"            remote="ex-gh" />
   <project path="kernel/oneplus/sm8550-modules"    name="android_kernel_oneplus_sm8550-modules"    remote="ex-gh" />
-  <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" remote="lineage" />
+  <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" remote="ex-gh" />
 
   <!-- hardware -->
   <project path="hardware/oplus"                name="android_hardware_oplus"                remote="ex-gh" />
