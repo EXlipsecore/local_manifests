@@ -30,11 +30,6 @@ adb sideload Rom*.zip
 ```
 
 > 🛠️ Sideload failing with any error? Use the fix below, then start Method 1 again.
-
-**5.** 🧹 Format data / Factory reset
-
-**6.** 🚀 Reboot to system
-
 ---
 
 ### 🛠️ Fix for Any Sideload Error
