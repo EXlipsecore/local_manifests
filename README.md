@@ -6,7 +6,7 @@ Drop-in local manifests for **Infinity-X 17** (Android 17).
 mkdir -p .repo/local_manifests
 cp aston.xml .repo/local_manifests/     # OnePlus 12R
 # or
-cp astonc.xml .repo/local_manifests/    # OnePlus Ace 3 (China, PJE110)
+cp astonc.xml .repo/local_manifests/    # OnePlus Ace 3
 repo sync -c --force-sync --no-clone-bundle --no-tags -j16
 ```
 
@@ -29,12 +29,3 @@ repo sync -c --force-sync --no-clone-bundle --no-tags -j16
 | vendor/oneplus/dolby | crDroidAndroid/proprietary_vendor_oneplus_dolby | `17.0` |
 | packages/apps/LunarisDolby | crDroidAndroid/android_packages_apps_LunarisDolby | `17.0` |
 
-## Build
-
-```bash
-source build/envsetup.sh
-lunch infinity_aston-user      # or infinity_astonc-user
-m bacon -j$(nproc --all)
-```
-
-Aston = global OnePlus 12R (CPH2585 / CPH2611). Astonc = **China-only** OnePlus Ace 3 (PJE110).
