@@ -1,0 +1,10 @@
+Changelog
+=========
+02/11/2026
+---------------
+-Added OnePlus Camera and Gallery
+-Added OnePlus Settings
+-Added LTPO
+-Added Dolby & Fixed latency issues
+-Signed + user build
+-Built-in root with KSU-Next + SUSFS
